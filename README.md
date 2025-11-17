@@ -55,5 +55,6 @@ jalankan docker compose
 
 Menjalaknkan 
 
-![Gambar](images/4.png) 
+![Gambar](images/5.png) 
+
 
