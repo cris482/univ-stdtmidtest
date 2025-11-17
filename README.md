@@ -41,7 +41,15 @@ Gateway mengaggregasi data dan mengembalikan response terpadu ke client
     * 00_init.sql: Ini kemungkinan adalah skrip SQL inisialisasi yang akan dijalankan oleh container PostgreSQL saat pertama kali dibuat untuk menyiapkan database, pengguna, atau skema awal.
     * env: Ini adalah file shell script atau file variabel lingkungan yang mungkin berisi kredensial database (username, password), nama database, port, atau konfigurasi spesifik lainnya yang digunakan oleh docker-compose.yml atau container Anda. 
 
-        1. aktifkan docker 
+
+    
+    aktifkan docker 
 
 ![Gambar](images/1.png) 
+
+
+jalankan docker compose 
+
+![Gambar](images/3.png)
+
 
