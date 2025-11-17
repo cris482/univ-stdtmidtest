@@ -53,3 +53,7 @@ jalankan docker compose
 ![Gambar](images/3.png)
 
 
+Menjalaknkan 
+
+![Gambar](images/4.png) 
+
