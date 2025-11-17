@@ -57,4 +57,7 @@ Menjalankan
 
 ![Gambar](images/5.png) 
 
+memeriksa status 
+![Gambar](images/6.png)
+
 
