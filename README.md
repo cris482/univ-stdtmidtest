@@ -18,7 +18,18 @@ Semua dikerjakan dan di-push ke repo GitHub (atau penyedia repo lainnya; GitLab,
     
     BASE adalah strategi desain yang mengimplementasikan pilihan AP (Availability dan Partition Tolerance) dengan mengakui bahwa konsistensi akan tercapai pada akhirnya, bukan secara instan.
 
-2.  
+2.   
+    2.GraphQL berfungsi sebagai API gateway yang mengkoordinasikan komunikasi antara berbagai layanan mikro (microservices) dalam sistem terdistribusi.
+
+
+![Gambar](images/2.png)
+
+Cara Kerja :
+Client mengirim single GraphQL query
+Gateway menganalisis query dan menentukan services mana yang dibutuhkan
+Gateway mengirim request ke masing-masing service yang relevan
+Services mengembalikan data ke gateway
+Gateway mengaggregasi data dan mengembalikan response terpadu ke client
 
 
 
@@ -33,3 +44,4 @@ Semua dikerjakan dan di-push ke repo GitHub (atau penyedia repo lainnya; GitLab,
         1. aktifkan docker 
 
 ![Gambar](images/1.png) 
+
