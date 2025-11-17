@@ -22,7 +22,7 @@ Semua dikerjakan dan di-push ke repo GitHub (atau penyedia repo lainnya; GitLab,
     2.GraphQL berfungsi sebagai API gateway yang mengkoordinasikan komunikasi antara berbagai layanan mikro (microservices) dalam sistem terdistribusi.
 
 
-![Gambar](images/2.png)
+![Gambar](images/2.jpg)
 
 Cara Kerja :
 Client mengirim single GraphQL query
