@@ -1,6 +1,6 @@
 # UTS Sistem Terdistribusi Dan Terdesentralisasi IF-2 Ganjil 2025 Bambang Purnomosidi D.P. - FIF25002T
 
-**Nama    : Christian**
+**Nama    : Christian R**
 
 **Nim     : 235410115**
 
@@ -13,3 +13,23 @@ Semua dikerjakan dan di-push ke repo GitHub (atau penyedia repo lainnya; GitLab,
 
 ## Jawaban 
 
+1.  
+    CAP Theorem adalah batasan teoritis untuk sistem terdistribusi: Anda hanya bisa memilih dua dari tiga (Consistency, Availability, Partition Tolerance). 
+    
+    BASE adalah strategi desain yang mengimplementasikan pilihan AP (Availability dan Partition Tolerance) dengan mengakui bahwa konsistensi akan tercapai pada akhirnya, bukan secara instan.
+
+2.  
+
+
+
+3 .
+
+### Langkah langkah pengejaan : 
+
+    * docker-compose.yml: Ini adalah file konfigurasi utama untuk Docker Compose. File ini mendefinisikan layanan (misalnya, server PostgreSQL) yang akan dibuat Docker, jaringan, volume, dan pengaturan lainnya.
+    * 00_init.sql: Ini kemungkinan adalah skrip SQL inisialisasi yang akan dijalankan oleh container PostgreSQL saat pertama kali dibuat untuk menyiapkan database, pengguna, atau skema awal.
+    * env: Ini adalah file shell script atau file variabel lingkungan yang mungkin berisi kredensial database (username, password), nama database, port, atau konfigurasi spesifik lainnya yang digunakan oleh docker-compose.yml atau container Anda. 
+
+        1. aktifkan docker 
+
+![Gambar](images/1.png) 
